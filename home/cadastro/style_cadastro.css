@@ -1,0 +1,117 @@
+body {
+    background-color: #4702a5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 455px;
+    height: 100vh;
+    padding: 35px;
+}
+
+
+main h1 {
+    color: #4702a5;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main .alternative {
+    margin-top: 40px;
+}
+
+main .alternative span {
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+}
+
+main .alternative span::before,
+main .alternative span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: black;
+    right: 50px;
+    bottom: 50%;
+}
+
+main .alternative span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 18px;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+
+main form input {
+    width: 300px;
+    height: 30px;
+    padding: 2px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 15px;
+
+}
+
+main form input[type=submit] {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 80px;
+    border: none;
+}
+
+main section img {
+    width: 200px;
+    height: auto;
+    padding: 40px;
+}
+#send:hover {
+    background-color: pink;
+    transition: 1s;
+}

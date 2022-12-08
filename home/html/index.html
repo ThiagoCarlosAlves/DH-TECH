@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DH Tech</title>
+    <link href="/home/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="header" id="header">
+    <button onclick="toggleSidebar" class="btn_icon_header">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+    </button>
+            <div class="logo">
+                <h1><img src="/home/img/logotipo.png" width="300px"></h1>
+            </div><!--logo-->
+
+            <div class="cabeçalho" id="cabeçalho">
+                <li>
+                <button class="btn_icon_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                            </svg>
+                </button>
+                </li>
+                <li>
+                    <a href="/home/cadastro/cadastro.html">Entrar/Cadastro</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a onclick="darkMode()">Escuro/Claro</a>
+            <script>
+                function darkMode() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
+                }
+              </script>
+                </li>
+            </div><!--cabeçalho-->
+
+            <div class="carrinho">
+                <h1><a href=""><img src="/home/img/Icons/Ícone-Carrinho-de-Compras-PNG.png" width="70px"></a></h1>
+            </div><!--carrinho-->
+
+    </div>
+        <div class="Meio">
+
+        </div><!---Meio-->
+
+    <section>
+        <h1>OFERTAS EM DESTAQUE</h1>
+        <div class="container-card-1">
+            <div class="cards">
+                <img src="/home/img/Teclado Mecânico Gamer Husky Gaming Blizzard, 60_, RGB, Switch Gateron Blue, ABNT2, Branco - HGMO022.png" alt="">
+            </div><!---cards-->
+
+            <!--<div class="cards">
+                    <img src="/home/img/Webcam Lenovo 300 Full HD Com Microfone Integrado, 1080p 30fps, USB, Cinza Claro - GXC1B34793.png alt="">
+                
+            </div><!---cards-->
+
+            <div class="cards">
+                    <img src="/home/img/SSD MANCER BLINK X1.jpg" alt="">
+                    
+            </div><!---cards-->
+
+            <div class="cards">
+                    <img src="/home/img/MICROFONE HYPERX DUOCAST, RGB, USB, PRETO, 4P5E2AA.jpg" alt="">
+                    
+            </div><!---cards-->
+
+        </div><!---container-card-1-->
+    </section>
+
+    <section>
+        <h1>Produtos</h1>
+
+        <div class="container-produtos">
+
+            <div class="Produto">
+                <img src="/home/img/A Cadeira Gamer ThunderX3 EC3 Reclinável.png">
+                <p>Cadeira Gamer ThunderX3 EC3 Reclinável</p>
+                <h2 style="color: #4702a5;">R$ 1.589,47</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Cadeira Gamer Fortrek Black Hawk.png">
+                <p>Cadeira Gamer Fortrek Black Hawk</p>
+                <h2 style="color: #4702a5;">R$ 1.589,47</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mouse Gamer Redragon Cobra, Chroma RGB, 12400DPI, 7 Botões, Preto - M711 V2.png">
+                <p>Mouse Gamer Redragon Cobra, Chroma RGB, 12400DPI, 7 Botões, Preto - M711 V2</p>
+                <h2 style="color: #4702a5;">R$ 116,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mouse Gamer Redragon King Cobra 2 Lunar White, RGB Chroma Mk2, 24000 DPI, Branco.png">
+                <p>Mouse Gamer Redragon King Cobra 2 Lunar White, RGB Chroma Mk2, 24000 DPI, Branco</p>
+                <h2 style="color: #4702a5;">R$ 149,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Cadeira Gamer ThunderX3 TC3 All Black.png">
+                <p>Cadeira Gamer ThunderX3 TC3 All Black</p>
+                <h2 style="color: #4702a5;">R$ 1.693,44</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mouse Gamer Vertical Trust GXT 144 Rexx, 10.000DPI, RGB, Ergonômico, 6 Botões, Preto - 22991.png">
+                <p>Mouse Gamer Vertical Trust GXT 144 Rexx, 10.000DPI, RGB, Ergonômico, 6 Botões, Preto - 22991</p>
+                <h2 style="color: #4702a5;">R$ 129,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Headset Gamer Redragon Lamia 2, RGB, 7.1 Som Surrond, Drivers 40mm, Branco - H320W-RGB.png">
+                <p>Headset Gamer Redragon Lamia 2, RGB, 7.1 Som Surrond, Drivers 40mm, Branco - H320W-RGB</p>
+                <h2 style="color: #4702a5;">R$ 199,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Kit Gamer 5 em 1 Onikuma com Headset com Suporte + Teclado + Mouse + MousePad, Preto - X7PRO.png">
+                <p>Kit Gamer 5 em 1 Onikuma com Headset com Suporte + Teclado + Mouse + MousePad, Preto - X7PRO</p>
+                <h2 style="color: #4702a5;">R$ 349,90</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Kit Gamer Bright CB01 TMMP - Teclado + Mouse + Mousepad.png">
+                <p>Kit Gamer Bright CB01 TMMP - Teclado + Mouse + Mousepad</p>
+                <h2 style="color: #4702a5;">R$ 99,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mousepad Gamer AOC Agon AMM700, RGB, Rígido, Médio (357x256mm).png">
+                <p>Mousepad Gamer AOC Agon AMM700, RGB, Rígido, Médio (357x256mm)</p>
+                <h2 style="color: #4702a5;">R$ 49,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mesa Gamer RGB Skill Gaming SKILL SKD-001M, Preto carbono, Suporte Para Headset E Copo, Com Organizador De Cabos - Skd-001m.png">
+                <p>Mesa Gamer RGB Skill Gaming SKILL SKD-001M, Preto carbono, Suporte Para Headset E Copo, Com Organizador De Cabos - Skd-001m</p>
+                <h2 style="color: #4702a5;">R$ 390,15</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mouse Gamer Multi Gunter, LED Rainbow, 6400 DPI, 6 Botões, Preto - MO297.png">
+                <p>Mouse Gamer Multi Gunter, LED Rainbow, 6400 DPI, 6 Botões, Preto - MO297</p>
+                <h2 style="color: #4702a5;">R$ 29,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Webcam Full HD Logitech C920s com Microfone Embutido, Proteção de Privacidade, Widescreen 1080p, Compatível Logitech Capture - 960-001257.png">
+                <p>Webcam Full HD Logitech C920s com Microfone Embutido, Proteção de Privacidade, Widescreen 1080p, Compatível Logitech Capture - 960-001257</p>
+                <h2 style="color: #4702a5;">R$ 379,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Webcam Razer Kiyo X - RZ19-04170100-R3U1.png">
+                <p>Webcam Razer Kiyo X - RZ19-04170100-R3U1</p>
+                <h2 style="color: #4702a5;">R$ 599,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mousepad Gamer Grande Com Led RGB 7 cores 80x30cm - Exbom.png">
+                <p>Mousepad Gamer Grande Com Led RGB 7 cores 80x30cm - Exbom</p>
+                <h2 style="color: #4702a5;">R$69,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mousepad Gamer Havit Control.png">
+                <p>Mousepad Gamer Havit Control</p>
+                <h2 style="color: #4702a5;">R$ 59,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Mousepad Gamer Husky Gaming Storm, Fire, Speed, Extra Grande 900x290mm.png">
+                <p>Mousepad Gamer Husky Gaming Storm, Fire, Speed, Extra Grande 900x290mm</p>
+                <h2 style="color: #4702a5;">R$ 49,90</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+
+            <div class="Produto">
+                <img src="/home/img/Teclado Gamer HyperX Alloy Core, RGB, ABNT2 - HX-KB5ME2-BR.png">
+                <p>Teclado Gamer HyperX Alloy Core, RGB, ABNT2 - HX-KB5ME2-BR</p>
+                <h2 style="color: #4702a5;">R$ 249,99</h2>
+                <ion-icon name="cart-info"></ion-icon>
+            </div><!---produto-->
+        </div><!---container-produtos-->
+    </section>
+</body>
+
+<footer>
+    <div class="container_footer" id="container_footer">
+        <div class="row-footer">
+            <div class="footer-col">
+                <h3>INSTITUCIONAL</h3>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Localização</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            </div>
+
+        <div class="footer-col">
+            <h3>DUVIDAS</h3>
+            <li><a href="#">Entrega</a></li>
+            <li><a href="#">Garantia</a></li>
+            <li><a href="#">Como comprar</a></li>
+            <li><a href="#">Formas de Pagamento</a></li>
+        </div>
+
+    <div class="footer-col">
+        <h3>AJUDA</h3>
+        <li><a href="#">SAC</a></li>
+        <li><a href="#">Fale conosco</a></li>
+        <li><a href="#">Termos de aceite</a></li>
+        <li><a href="#">Políticas de Privacidade</a></li>
+    </div>
+
+    <div class="footer-col">
+        <h3>PAGAMENTO</h3>
+            <div class="formas-pagamento">
+                <img src="/home/img/formas-pagamento/american.png">
+                <img src="/home/img/formas-pagamento/mastercard.png">
+                <img src="/home/img/formas-pagamento/paypal.png">
+                <img src="/home/img/formas-pagamento/pix.png">
+                <img src="/home/img/formas-pagamento/boleto.png">
+                <img src="/home/img/formas-pagamento/visa.png">
+            </div>
+        </div>
+     </div>
+    </div>
+</footer>
+
+<script>
+    var header = document.getElementById('header');
+    var cabeçalho = document.getElementById('cabeçalho');
+    var showSidebar = false;
+
+    function toggleSidebar()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar){
+            cabeçalho.style.marginLeft = '-10vw'
+        }
+        else{
+            cabeçalho.style.marginLeft = '-100vw'
+        }
+    }
+
+
+
+</script>
+
+</html>
