@@ -30,7 +30,7 @@ body {
 }
 
 .header,
-.cabeçalho{ 
+.cabecalho{ 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,11 +50,11 @@ body {
     position: fixed;
 }
 
-.cabeçalho{
+.cabecalho{
     gap: 3em;
 }
 
-.cabeçalho a{
+.cabecalho a{
     text-decoration: none;
     color: white;
     background-color: #3c0686;
@@ -62,7 +62,6 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
-
 
 
 .btn_icon_header{
@@ -78,24 +77,30 @@ body {
     .btn_icon_header{
         display: block;
     }
-    .cabeçalho{
-        position: absolute;
+    .cabecalho{
+        position: fixed;
+        left: -50vw;
         flex-direction: column;
         top: 0;
         background-color: #3c0686;
         height: 100%;
         width: 35vw;
         padding: 1em;
-        animation-duration: 1s;
+        animation: 1s showSidebar ease-in-out;
         margin-left: -10vw;
+        transition: 1s;
     }
 
 }
+
 @keyframes showSidebar {
-    from{margin-left: -100vw;}
-    top{margin-left: -10vw;}
+    from{ left: -50vw;;}
+    top{  left: 0vw;}
 }
 
+.view{
+    left: 10vw;
+}
 
 .carrinho{
     width: 200px;
